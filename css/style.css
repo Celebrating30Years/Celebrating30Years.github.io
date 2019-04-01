@@ -14,8 +14,7 @@ nav .brand-logo {
 title {
   font-family: "Cambria";
 }
-
-p {
+h2 p {
   line-height: 2rem;
   font-family: "Cambria";
 }
@@ -28,7 +27,9 @@ h5 {
   font-size: 1 rem;
   font-weight: 500;
 }
-
+.light {
+  font-weight: 300;
+}
 .sidenav-trigger {
   color: #26a69a;
 }
