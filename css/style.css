@@ -28,6 +28,16 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+.dark-text {
+  color: black;
+  font-weight: 500;
+}
+.nav-color {
+  background-color: teal;
+}
+.white-type {
+  color: white;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
