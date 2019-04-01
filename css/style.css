@@ -9,10 +9,18 @@
 nav ul a,
 nav .brand-logo {
   color: #444;
+  font-family: "Cambria";
+}
+title {
+  font-family: "Cambria";
 }
 
 p {
   line-height: 2rem;
+  font-family: "Cambria";
+}
+h5 {
+  font-family: "Cambria";
 }
 
 .sidenav-trigger {
