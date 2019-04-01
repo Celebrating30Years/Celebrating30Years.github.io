@@ -22,6 +22,12 @@ p {
 h5 {
   font-family: "Cambria";
 }
+#logo {
+  color: white;
+  font-family: "Cambria";
+  font-size: 1 rem;
+  font-weight: 500;
+}
 
 .sidenav-trigger {
   color: #26a69a;
@@ -31,11 +37,11 @@ h5 {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 .dark-text {
   color: black;
   font-weight: 500;
@@ -46,11 +52,11 @@ h5 {
 .white-type {
   color: white;
 }
+
 #header {
   width: 100%;
 }
-
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -60,19 +66,25 @@ h5 {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
-}
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
+  #index-banner {
+    display: none;
+  }
+  #logo {
+    display: none;
+  }
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
 
-footer.page-footer {
-  margin: 0;
+  footer.page-footer {
+    margin: 0;
+  }
 }
