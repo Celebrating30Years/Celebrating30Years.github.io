@@ -53,6 +53,9 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
+  #header {
+    visibility:none;
+  }
   #index-banner .section {
     top: 0;
   }
