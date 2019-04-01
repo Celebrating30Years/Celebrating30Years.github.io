@@ -13,6 +13,7 @@ nav .brand-logo {
 }
 title {
   font-family: "Cambria";
+  color: #006A88;
 }
 h2 p {
   line-height: 2rem;
@@ -33,7 +34,9 @@ h5 {
 .sidenav-trigger {
   color: #26a69a;
 }
-
+footer {
+  background-color: #006A88;
+}
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -48,7 +51,7 @@ h5 {
   font-weight: 500;
 }
 .nav-color {
-  background-color: teal;
+  background-color: #006A88;
 }
 .white-type {
   color: white;
